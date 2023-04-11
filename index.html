@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>sollo</title>
         
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAFLUlEQVRYCe1VW2xTdRj/nd7v7bp2bXcpG4zrriDKZEiGwxDQqBDJgiaS+GJMfPXFF/fKkz74ZmIWNZE4ElQiQVEgG4kOEC0OOi5Ky7ZutF1v5/TcL/5PcQkPPZv46r6mPadfv/N9v//v+31fgTVbY+D/zgD1Xwg4PDK8SRWFgYjT2ao/n+PYeRHmK9+dnkg+ab4nAUCNvLb39W3e0Hsa7H1BVwwhEw231QZNB8EzWOCYm7eY4omTX134AlTNvSqefwXg5WPDkc1W15e9vsi+nFBFrPVt+J1h3Jk9hQ5rFnaPFwJNAyaAl2VcL2Qu/cHTx86OX1pcDYF5tYAjR56L7fAELz8TbN0xJ1AIR96Ay+qHJIoolBKwUQzSxUUURBaypsJEmWHxDrY3uTsON7Tw48nkA2alGisCGBoasvQ3+c/tDLb22txuuCGiXLmGcvkqSnQCbQ4BV2UBt6PrkfE1IsXRCEgOxJteQrxhW5BVuD3mFzGWupRSjUAQ0owtHtHe2R5oflaPkHgOFsqEdeFmeK0mUAqNhWoZPraCjU8Po3P3ITSJAiipiIelexAII+t83bsC03jXuAKIVAzs6NGj5u1eLdUViLTmSd85WUXM6QIri7jYvB7WaAcoigKXz6AxFIFmseHB1e+xs1xCk9sHVjWBgwtLYmHBGd8UHx0dleuVMmSAl+f2rHMHWlOcBsn5CvzB40gyYfzsJK3YsJ0ILwBV4GBVZDCShCrLINg1iNuEIUpREHc5scUF9HncsV8TZ/fWK677DAFEnZ4BhcyXbOkioxaApqgoWQhlfftQzabAV/Jo5ET0t++CmJuDUFmCRFpi27IT1xUBkizB5nHDY7Ei5vDV2lgPhCEAn83ellVaCJ1bIbJ5zJeuo9wbB1fIkMRBWPIPYSX9nzr1AbZEu2G2O6CS9uggqj2DSFZy4CoEkMeHgM0Zr1dc95Ez1TdKo0ysmML9vJOcoBWzpgWgaoY+NnQugQODb5I7CoHYRmzo3o/sxU+QE3mo5A1Nw5/mIEyMA1tR0rViqDVDAFWVy0TsXQjZOgmdLBoFD5rbB1Cls5hTrQgE2yCQ7ecPxQkMCtFQBxrsXoAtIRztRPb+GUR93ZjKjyEnMZn6x1yBgYzA/BJzkO1m19M/GpeFic+AYgY5sxXY9xZ+O/k+4oT2O30HACJOZvJz2JgCFvsPkIVEocDNo9H5PGbY8StGAAw1YNPaJhgukc2ySTKCVcKqvvFV8tKvGjRVhZsrw6P3vvxQ99Rq6BG63S3+BEGuoCLnCg3ejRdqzjofhgDGx8fFolL9qNOZRoE/jzl6Cg09L8DeMwx/ez9JRQoSUGUycgv6MGkUXL374ezbjyj53WsxgRdzmK3OfDw2NkaEUd8MAejhd+3KhzfKi9OyuQWqOQCpKMKWd5G6JlKegkxYcJEFFdJkIjSgrfcgGpt3oJhOw2KyoCom7xZY8UT90o+8K/4XpH5PyQ2bG38wwTdSFrIeD+2AREYvXZiGw+VG6tYkRE1BgTDBktXL8jQWk1ewdG8GRX4+v6iKB898/aOhAHUIhuPxOOpXR3Zv6A0fOv1Uy6Eeq9le6/fyg2W6CEX9Z8vWuiJjZunynenihcPfjE/eejxPvfsVGVh+YObmbNG1y/7pQiZRIeLrdtn8XjOsYKo0FEWqhfESjVn6Ri6xdO7EX7n08W9Pn1/x5Mu5lw+y/H3V6+jokOXaNL+nyd4x4LGH28h0UJxcmM8J6SmbFpvQxbtqkrWANQbWGHiMgb8BHCo6qzPGYDQAAAAASUVORK5CYII=">
+        <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAEKADAAQAAAABAAAAEAAAAAA0VXHyAAABy0lEQVQ4EdXRTU8TQRgH8P8u7dLdbumLXZZK0ZAmqCejRpJVY0xI4AgmXIAD4eINP4BHD3wB8OBdPFhuxouJienBFxIToK0JIC3QoKThZUt2u9PZnV3hQNgF/QA8l3mezDy/JzMDXPrg/nWDsbEBNdeefCaHJS0eAgybfF9s1F/n8593z5+/ALyYHBm4JqUWpORgwnUZ2kkBDrNhelF920uOzrx6+cmPtPmLiYkn2QeJ7kJakuOErMMy1lFMq6jISWSIGulK3BnxrtbmV0tbR6d9/Glyst6VMtOU7+zYJSmUlSyWtSGY6W448RQO6Qo8/X2HFss+9/cEAIePam6oH79FFYedPRAP9hA3mnAcGxvXbyDMO1AkUfMDx090Fibj+BjR0VIIxCOK/ntPYdMmSmtf4EWAXxUbIVYMDA0AhDnfPLgPw3+2wKwKGlEFzk4ZoiDBbdSPsQhsrm/xbCQQ0OpWdc6kBZPIIuTeR+AYhWlTyLn7SPQ9htlatWrNn7N+IPALS6VNPXvr5orC9wxfgSq0MQHM4MC3BOiVDavaWB5/m//49b/AycZSsbyWu901n4nlbI6GPZcJNWrsL1QPfky9efch0OyHLnH+Fx33sT24+82IAAAAAElFTkSuQmCC">
+        <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiIiwic2hvcnRfbmFtZSI6IiIsImljb25zIjpbeyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLCJzaXplcyI6IjE5MngxOTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn0seyJzcmMiOiIvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJ0aGVtZV9jb2xvciI6IiNmZmZmZmYiLCJiYWNrZ3JvdW5kX2NvbG9yIjoiI2ZmZmZmZiIsImRpc3BsYXkiOiJzdGFuZGFsb25lIn0=">
       <script type="module" crossorigin src="index.js"></script>
       <link rel="stylesheet" href="index.css">
     </head>
@@ -15,8 +19,13 @@
         </div>
         <div id="center">
             <h1 id="sollo">sollo</h1>
+            <script>
+                function openform() {
+                    alert("forms.gle/Bx1hoBMaSxGTnHNv9");
+                }
+            </script>
             <div class="buttonbg">
-                <button id="join" onclick="alert('foobar')">Join</button>
+                <button id="join" onclick="openform()">JOIN</button>
             </div>
         </div>
         <div class="circle"></div>
